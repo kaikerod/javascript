@@ -59,10 +59,10 @@
     </main>
 
     <script>
-        var n1 = Number(window.prompt('Digite um Número: '));
-        var n2 = Number(window.prompt('Digite outro Número: '));
+        var n1 = Number(window.prompt('Digite um Número: ')); //Number ele decide se é inteiro ou não
+        var n2 = Number(window.prompt('Digite outro Número: ')); //Também pode ser usado o Number.parseInt e Number.parseFloat
         var s = n1 + n2;
-        window.alert('A Soma dos números é de: ' + s);
+        window.alert(`A Soma entre ${n1} e ${n2} é de ${s}`);
     </script>
 
 </body>
