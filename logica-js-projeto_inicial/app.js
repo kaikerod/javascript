@@ -3,8 +3,8 @@ let numeroSecreto = 5;
 console.log(numeroSecreto)
 let chute
 
-while () {
-    chute =  = prompt('Escolha um número entre 1 e 10');
+while (chute != numeroSecreto) {
+    chute = prompt('Escolha um número entre 1 e 10');
 }
 
 if (chute == numeroSecreto) {
