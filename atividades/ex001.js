@@ -3,7 +3,7 @@ let domingo
 
 let semana = prompt('Qual é o dia da semana? ');
     if(semana = sabado || domingo) {
-        print('Bom fim de semana! ')
+        alert('Bom fim de semana! ')
     } else {
-        print('Boa semana!')
+        alert('Boa semana!')
     }
