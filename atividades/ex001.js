@@ -1,6 +1,5 @@
 let sabado
 let domingo
-let diaNormal
 
 let semana = prompt('Qual é o dia da semana? ');
     if(semana = sabado || domingo) {
