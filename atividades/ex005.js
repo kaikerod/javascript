@@ -4,7 +4,10 @@ while (contador <= 10) {
     contador++;
 }
 
-console.log('Boas Vindas');
+// console.log('Boas Vindas');
+
+// let nome = prompt('Insira seu nome ');
+// console.log(`Olá ${nome}! `);
 
 let nome = prompt('Insira seu nome ');
-console.log(`Olá ${nome}! `);
+alert(`${nome}`)
