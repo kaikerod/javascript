@@ -15,3 +15,10 @@ let resultado = (valor1 - valor2);
 
 console.log(`A diferença entre ${valor1} e ${valor2} é de ${resultado}`);
 
+let idade = prompt('Qual é a sua idade? ');
+
+if (idade >= 18) {
+    console.log('Você é maior de idade.');
+} else {
+    console.log('Você é menor de idade');
+}
