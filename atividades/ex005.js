@@ -9,5 +9,5 @@ while (contador <= 10) {
 // let nome = prompt('Insira seu nome ');
 // console.log(`Olá ${nome}! `);
 
-let nome = prompt('Insira seu nome ');
-alert(`${nome}`)
+let linguagem = prompt('Qual a linguagem de programação que você mais gosta? ');
+console.log(linguagem);
