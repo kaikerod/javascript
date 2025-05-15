@@ -22,3 +22,6 @@ if (idade >= 18) {
 } else {
     console.log('Você é menor de idade');
 }
+
+let aleatorio = parseInt(Math.random() * 100 + 1);
+console.log(aleatorio);
