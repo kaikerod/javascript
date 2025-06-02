@@ -23,3 +23,6 @@ let numero = parseInt(prompt('Digite um número para eu calcular o dobro! '));
 function calcularDobro(numero) {
     return numero * 2;
 }
+
+let resultado = calcularDobro(numero);
+console.log(resultado);
