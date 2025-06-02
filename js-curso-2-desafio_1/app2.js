@@ -38,3 +38,14 @@ function calcularMedia(a, b, c) {
 
 let media = calcularMedia(4, 7, 10);
 console.log(media);
+
+
+///////////////////////////////////////////////////////////
+
+
+function encontrarMaior(a, b) {
+  return a > b ? a : b;
+}
+
+let maiorNumero = encontrarMaior(15, 9);
+console.log(maiorNumero);
