@@ -25,4 +25,4 @@ function calcularDobro(numero) {
 }
 
 let resultado = calcularDobro(numero);
-console.log(resultado);
+console.log(calcularDobro(numero));
