@@ -3,6 +3,6 @@ function exibirNoConsole() {
 }
 
 function inputNome() {
-    let nome = Kaike
-    return console.log('Olá, 'nome'!');
+    let nome = 'Kaike'
+    return console.log(`Olá, ${nome}!`);
 }
