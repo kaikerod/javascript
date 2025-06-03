@@ -25,5 +25,11 @@ function verificarChute() {
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
         exibirTextoNaTela('p', 'Você descobriu o nuúmero secreto!');
+    } else {
+        if (chute > numeroSecreto) {
+            exibirTextoNaTela('p', 'O número secreto é menor')
+        } else {
+            exibirTextoNaTela('p', 'O número é maior')
+        }
     }
 }
