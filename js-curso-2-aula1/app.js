@@ -21,4 +21,9 @@ function gerarNumeroAleatorio() {
 function verificarChute() {
     let chute = document.querySelector('input').value;
     console.log(chute == numeroSecreto);
+
+    if (chute == numeroSecreto) {
+        exibirTextoNaTela('h1', 'Acertou!');
+        exibirTextoNaTela('p', 'Você descobriu o nuúmero secreto!');
+    }
 }
