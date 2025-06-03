@@ -19,6 +19,11 @@ function gerarNumeroAleatorio() {
     return parseInt(Math.random() * 10 + 1);
 }
 
+function limparCampo() {
+    chute = document.querySelector('input');
+    chute.value = '';
+}
+
 function verificarChute() {
     let chute = document.querySelector('input').value;
     console.log(chute == numeroSecreto);
@@ -36,5 +41,6 @@ function verificarChute() {
         }
         // tentativas = tentativas + 1;
         tentativas++;
+        limparCampo();
     }
 }
