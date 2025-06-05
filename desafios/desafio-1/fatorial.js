@@ -14,3 +14,4 @@ function calcularFatorial(numero) {
 // Exemplo de uso
 let numero = 5;
 let resultado = calcularFatorial(numero);
+console.log(`O fatorial de ${numero} é ${resultado}`);
