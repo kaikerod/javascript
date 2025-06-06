@@ -1,8 +1,5 @@
-let dolar = 5.60
-let real = parseInt(prompt('Insira um valor para ser convertido em Dólares'));
-
-function converteDolarEmReal() {
-    real * dolar
+function converterDolarParaReal(valorEmDolar) {
+  let cotacaoDolar = 4.80;
+  let valorEmReais = valorEmDolar * cotacaoDolar;
+  return valorEmReais.toFixed(2);
 }
-
-console.log(converteDolarEmReal());
