@@ -1,10 +1,8 @@
-function converterDolarParaReal(valorEmDolar) {
-  let cotacaoDolar = 4.80;
-  let valorEmReais = valorEmDolar * cotacaoDolar;
-  return valorEmReais.toFixed(2);
+function converteDolarParaReal(dolar, real) {
+    let dolar = 4.80;
+    let real = parseFloat(prompt('Insira um valor em reais para ser convertido para dólar'));
+    let valorConvertido = real * dolar;
+    return valorConvertido;
 }
 
-// Exemplo de uso
-let valorEmDolar = 50;
-let valorEmReais = converterDolarParaReal(valorEmDolar);
-console.log(`${valorEmDolar} dólares equivalem a R$ ${valorEmReais}`);
+console.log(converteDolarParaReal());
