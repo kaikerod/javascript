@@ -1,8 +1,8 @@
-function converteDolarParaReal(dolar, real) {
-    let dolar = 4.80;
+function converteDolarParaReal(BRL, USD) {
     let real = parseFloat(prompt('Insira um valor em reais para ser convertido para dólar'));
+    let dolar = 4.80;
     let valorConvertido = real * dolar;
-    return valorConvertido;
+    return cambio;
 }
 
 console.log(converteDolarParaReal());
