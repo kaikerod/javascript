@@ -21,6 +21,7 @@ function gerarNumeroAleatorio() {
     } else {
         listaDeNumerosSorteados.push(numeroEscolhido);
         return numeroEscolhido;
+    }
 }
 
 function limparCampo() {
