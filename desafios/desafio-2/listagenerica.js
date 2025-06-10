@@ -1,1 +1,1 @@
-let listaGenerica = [];
+let listaGenerica = ['banana', 'maçã', 'uva', 'laranja', 'pêra', 'abacaxi', 'mamão', 'kiwi', 'amora', 'morango'];
