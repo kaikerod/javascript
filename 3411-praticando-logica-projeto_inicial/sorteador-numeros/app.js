@@ -4,9 +4,12 @@ function sortearNumero() {
     let ate = parseInt(document.getElementById('ate').value);
 
     let sorteados = [];
+    let numero;
 
     for (let i = 0; i < quantidadeDeNumeros; i++) {
-}
+        numero = sortearNumeros(de, ate);
+        sorteados.push(numero);
+    }
 }
 
 function sortearNumeros(min, max) {
