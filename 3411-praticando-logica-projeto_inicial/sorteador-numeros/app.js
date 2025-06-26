@@ -10,6 +10,9 @@ function sortearNumero() {
         numero = sortearNumeros(de, ate);
         sorteados.push(numero);
     }
+
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados}</label>`;
 }
 
 function sortearNumeros(min, max) {
