@@ -9,6 +9,13 @@ function sortearNumero() {
     for (let i = 0; i < quantidadeDeNumeros; i++) {
         numero = sortearNumeros(de, ate);
         sorteados.push(numero);
+
+        while (sorteados.includes(numero)) {
+            numero = sortearNumeros(de, ate);
+        }
+
+        sorteados.push(numero);
+
     }
 
     let resultado = document.getElementById('resultado');
