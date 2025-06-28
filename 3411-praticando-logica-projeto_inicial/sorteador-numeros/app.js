@@ -3,19 +3,24 @@ function sortearNumero() {
     let de = parseInt(document.getElementById('de').value);
     let ate = parseInt(document.getElementById('ate').value);
 
+    // Validação para evitar loop infinito
+    let intervaloDisponivel = ate - de + 1;
+    if (quantidadeDeNumeros > intervaloDisponivel) {
+        alert(`Erro: Você solicitou ${quantidadeDeNumeros} números, mas o intervalo de ${de} a ${ate} só possui ${intervaloDisponivel} números únicos.`);
+        return;
+    }
+
     let sorteados = [];
     let numero;
 
     for (let i = 0; i < quantidadeDeNumeros; i++) {
         numero = sortearNumeros(de, ate);
-        sorteados.push(numero);
 
         while (sorteados.includes(numero)) {
             numero = sortearNumeros(de, ate);
         }
 
         sorteados.push(numero);
-
     }
 
     let resultado = document.getElementById('resultado');
